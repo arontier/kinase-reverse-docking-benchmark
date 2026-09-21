@@ -1,0 +1,4 @@
+Figure 1. Overview of the PRSDB structure and binding-site database. Protein structures were collected and standardized from public resources (RCSB PDB, AlphaFold, and UniProt), known and putative bin
+
+이 그림은 스크립트 산출물이 아니다(도식). 편집 가능한 원본(BioRender/Illustrator 등)이
+프로젝트 트리에 없어 docx 임베드본을 그대로 추출해 두었다. 저자에게서 원본을 확보할 것.

@@ -1,0 +1,107 @@
+path,kind,bytes,sha256,source,description
+data/FILE_MAP.csv,data,797,b76b32249f69ef8e4b1213446d6a523a99692c780d8aad506f56c74e63b187e1,(generated),SI 에 인쇄된 경로와 이 저장소의 실제 경로 대응표
+data/D1_merged_labeled_kir.csv,data/D1,1707741,455c84a929fcfef119d95213051e3a9de8a2acd5c6a47f99637289a918a108f9,Kinase_paper/analysis_output/analysis_merged_labeled.csv,"KIR 화합물 × kinase (33,141행): 실험값, 이진 라벨, 방향교정 예측점수. 본문의 모든 per-drug·per-target·global 지표가 이 표에서 계산된다"
+data/D1_merged_labeled_pkis2.csv.gz,data/D1,2619038,7ea02d507686e74f5bb75cff2df1fb0bf3aadcd5cdff38f66fbe01c4129a9457,PKIS2/PKIS2_result/analysis_merged_labeled.csv,"PKIS2 화합물 × kinase (246,132행): 위와 동일한 구조"
+data/D2_kinase_ref_panels.tsv.gz,data/D2,222719,e0d578e29201143d0993509f31a91c6828d26cfda4ef5581d8c11bb856d5f9ff,Kinase_paper/kinase_ref_check/KINASE_REF_PANELS.tsv,"Kinase_ref 화합물 × kinase 패널 목록 (19,159행 / 403 kinase). 출처 시리즈·패널 크기·플랫폼·인용·단위·값·라벨·pool 소속, 그리고 원 논문 공개값과 Methods S3 복원분을 구분하는 reported 플래그"
+data/D3_per_drug_roc_ci.csv,data/D3,49618,12dacf3ced4c46a0d40d82888ee8396669823440aab8c33a56cbdee1e4ad12e5,Kinase_paper/low_auc_analysis/per_drug_ci.csv,두 패널의 화합물별 per-drug ROC 와 Hanley–McNeil 95% 신뢰구간 (Table S1·S11 의 출처)
+data/D4_per_target_metrics.csv,data/D4,56031,7c82e4d374cedf018a1e7e5c8e27ec6c4eba3a995e62294d89c99632dbae02f6,Kinase_paper/analysis_output/analysis_per_target_metrics.csv,타겟별 전체 지표 (Table S4 의 출처)
+data/D4_target_preference_vs_pdbbind.csv,data/D4,34780,977ba1d575079f9a43dd52280cbc18cb6fd5e4caf6e35b5296623b3c936e3251,Kinase_paper/pdbbind_analysis/target_pref_vs_npdb.csv,618 pool 전 항목에 대한 리간드 무관 표적 선호도 대 PDBbind 학습 빈도
+data/D5_protein_coverage.csv,data/D5,33208,f9368afd1d259285a864672157e30876630c8c74f0e8291149a2aae3d6a591ea,Kinase_paper/analysis_output/analysis_protein_coverage.csv,실험 패널에서 도달 가능한 모든 UniProt 항목과 실험·예측·병합 각 단계의 포함 여부 및 제외 사유
+data/D6_predictions/KIR__AD4-energy.csv.gz,data/D6,2821444,19d353eed1eb91cea0784e5205303afc7eb748b2ae704030c8e566ebf46d508d,Kinase_paper/DOCK/redock_zscore_long.csv,KIR 패널 AD4-energy 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/KIR__AK-Score2.csv.gz,data/D6,2941614,6b494e93c068816cd7e2b1519d87f02fb53bb6288abe9ba125cf07ce446bd6a9,Kinase_paper/result_87/redock_zscore_long.csv,KIR 패널 AK-Score2 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/KIR__GenScore.csv.gz,data/D6,2715498,c51141e844cf1c12eba1c2ebf19644a6277b9074bdcf5e8087831292caf656c7,Kinase_paper/Gen/redock_zscore_long.csv,KIR 패널 GenScore 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/KIR__RTMScore.csv.gz,data/D6,2960863,f569b733a4beab5a9a55683073c5a7b76b0f8e84a70b00b778f74125665a33d2,Kinase_paper/RTM/redock_zscore_long.csv,KIR 패널 RTMScore 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/Kinase_ref__AD4-energy.csv.gz,data/D6,1584607,5f1e4a0ffdfed51275ae4c6e3270550cd0dacc54afc89b3991d70ae44c7c28bf,Kinase_ref/DOCK/redock_zscore_long.csv,Kinase_ref 패널 AD4-energy 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/Kinase_ref__AK-Score2.csv.gz,data/D6,1662190,88502c2f81c9f9498ef1af728bebf4cf379bc016488fd41e8969f939d4b61068,Kinase_ref/AK/redock_zscore_long.csv,Kinase_ref 패널 AK-Score2 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/Kinase_ref__GenScore.csv.gz,data/D6,1536964,01763ddffa9495028a17f22d5aba42663295f136e1edb20b1f7bc043a6de4a77,Kinase_paper/Gen2/redock_zscore_long.csv,Kinase_ref 패널 GenScore 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/Kinase_ref__RTMScore.csv.gz,data/D6,1610763,ce52f2dc55344ed86d1ae8028e4ae1d870f567edf105398c9a67edebce5df36b,Kinase_ref/RTM/redock_zscore_long.csv,Kinase_ref 패널 RTMScore 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/PKIS2__AK-Score2.csv.gz,data/D6,12341502,dd63dc8edde512de4c1842d914a44b3643d0be62f18814bfab2579ec763eb212,PKIS2/PKIS2_result/redock_zscore_long.csv,PKIS2 패널 AK-Score2 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/PKIS2__GenScore.csv.gz,data/D6,11425494,7558f9be8ab1e4c51298911ff1dbb6746b4174f22148978bb075561dfe335f7d,PKIS2/Gen2/redock_zscore_long.csv,PKIS2 패널 GenScore 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D6_predictions/PKIS2__RTMScore.csv.gz,data/D6,12471330,b7c87ac62bc699bd5586336c9783afd9830a4726ca6805ee2daec14a2831c253,PKIS2/RTM/redock_zscore_long.csv,PKIS2 패널 RTMScore 의 병합 전 per-pair 예측 (z-score long 형식)
+data/D8_prsdb_kinase_library.csv,data/D8,55196,5b10ac0acb44ce5c8d91c9834425891590a26348f20b4e1c58bdf0b51fc11122,Kinase_paper/analysis_output/prsdb_kinase_library.csv,"618 구조 타겟 라이브러리의 구조↔단백질 대응 (구조 ID, UniProt, gene, protein name). PDB/AlphaFold accession·chain·resolution·pocket 열은 PRSDB export 대기 중이라 비어 있다"
+data/raw/kir_exp_matrix.csv,data/raw,224094,1447e5b003ae384f75c236d44d3b4cc69a8acaa55c0fc8d5e281bde5d5085a4a,Kinase_paper/kinase_exp_uniprot_mapped_matrix.csv,KIR %remaining 행렬 (92 화합물 × 375 assay). 대부분의 분석 스크립트의 실험 입력
+data/raw/kir_smiles.csv,data/raw,54318,80eb03236c07cdd73152413957cd966fcc650f84d82d60c7ac39bdd4d772f1c8,Kinase_paper/kirhub_92_inhibitors_smiles.csv,KIR 92개 화합물의 SMILES (리간드 누출 판정 입력)
+data/raw/pdbbind_kinase_ligands.csv,data/raw,61978,d4b5b98b41734361d47dcee9bbf5ea3cec3f13b164356a1b39de2e30cd32248e,Kinase_paper/pdbbind_analysis/pdbbind_kinase_ligands.csv,"PDBbind v2020 kinase 리간드의 PDB ID·UniProt·InChIKey14 (파생 식별자만, 원본 아님)"
+data/raw/pdbbind_uniprot_complex_counts.csv,data/raw,35460,6cdd3c596ef21e50e75dd9cd4733aac30c798cdb6dd1b41211cd8171143937b0,Kinase_paper/pdbbind_analysis/pdbbind_uniprot_complex_counts.csv,PDBbind v2020 general set 의 UniProt 별 복합체 수. 원본 INDEX 파일은 재배포할 수 없어 집계값만 싣는다 (Figure 2 의 학습 빈도 축)
+data/raw/pkis2_exp.tsv,data/raw,642936,2f76972214f5c4a7586dde103046b122fe79d4a56ec3d24ef56283e715a1fb6b,PKIS2/PKIS2_exp.tsv,PKIS2 %inhibition 행렬
+data/raw/pkis2_protein_mapped.tsv,data/raw,13865,32d4a135d8ccfd6051812567a2563271107f7da53578fcbf43a3f8a70665cab3,PKIS2/PKIS2_protein_mapped.tsv,PKIS2 assay 이름 → UniProt 대응
+data/raw/pkis2_smiles.smi,data/raw,40498,28f0c0542d0c61f40edb69ba5e8d0cb8666fc93a5c1f4b709a5cae7224188761,PKIS2/smiles_PKIS2.smi,PKIS2 화합물 SMILES
+figures/main/Figure_01__no_script.png,figure,927345,b9aed0d4ad78cee507aa418a2665f4741f1ba62cc0a0b6a7646f2c66ad9170e1,Kinase_paper/figures/main/Figure_01__no_script.png,논문 게재 그림
+figures/main/Figure_02__pdbbind_leakage.png,figure,578265,6f00c35e89aa4a6224d2777e92380c7afbc911a8abd5d18cf612a4ecffa3ceb7,Kinase_paper/figures/main/Figure_02__pdbbind_leakage.png,논문 게재 그림
+figures/main/Figure_03__dataset_leakage.png,figure,234569,e3b2fe27d49baaa909a37bb66c9b91bb7f2f0865b35f91aa5d627bfad714b2d0,Kinase_paper/figures/main/Figure_03__dataset_leakage.png,논문 게재 그림
+figures/main/Figure_04__leave_leaked_out.png,figure,263590,f221b7e9320df5a77af2462e1187af97b214e962a22e41104207c9e13b61e39c,Kinase_paper/figures/main/Figure_04__leave_leaked_out.png,논문 게재 그림
+figures/main/Figure_05__energy_benchmark.png,figure,316870,94b662d4d662dd781ad8408124c2f39f40346de75d4d22be1186f6ea10106733,Kinase_paper/figures/main/Figure_05__energy_benchmark.png,논문 게재 그림
+figures/main/Figure_06__fig2_recovery_combined.png,figure,238508,b7c76df88e6ac1809bd7b1aea041954559d862947942f1d460f0f3b0e56c77c5,Kinase_paper/figures/main/Figure_06__fig2_recovery_combined.png,논문 게재 그림
+figures/main/Figure_07__success_rate.png,figure,254510,e91b7929cbdcb3fb0b17faf02b1d4272d9264078bab0270e3bdb4bafa0ae5d1f,Kinase_paper/figures/main/Figure_07__success_rate.png,논문 게재 그림
+figures/main/Figure_08__ref_multi_compare.png,figure,268071,35f2dd688695d594c37482a21c415b9ba0697f936b64303c26cde6ef6e83c442,Kinase_paper/figures/main/Figure_08__ref_multi_compare.png,논문 게재 그림
+figures/main/Figure_09__pkis2_rtm_compare.png,figure,484247,e14477b9731c0feb2c71a3ce7416d276b50a9a9149c1fbcd29e82b327e673635,Kinase_paper/figures/main/Figure_09__pkis2_rtm_compare.png,논문 게재 그림
+figures/si/Figure_S1__energy_corr.png,figure,1121100,0186ac29e0bf66ae156271d059e8a910c889f321473a6e20839bcd031c279d9f,Kinase_paper/figures/si/Figure_S1__energy_corr.png,논문 게재 그림
+figures/si/Figure_S2__dataset_difference.png,figure,466860,11f2b3fc20ffb7c96d044546ea1756185c3d002226ae8ac16ca0c66b19efb3d0,Kinase_paper/figures/si/Figure_S2__dataset_difference.png,논문 게재 그림
+figures/si/Figure_S3__target_group_performance.png,figure,324268,8e6e7a0c6fd6e5f19160e0abd2f94f4b0329703cda0a160d8d986ce16f143213,Kinase_paper/figures/si/Figure_S3__target_group_performance.png,논문 게재 그림
+figures/si/Figure_S4__lowperf_compound_diagnosis.png,figure,272563,eb84c9f3489c1bb1123f5987e429b8fa68314b2427129d8efaaf78af73613b98,Kinase_paper/figures/si/Figure_S4__lowperf_compound_diagnosis.png,논문 게재 그림
+figures/si/Figure_S5__top1_bias_all.png,figure,535209,1a0b3b6245fd1bdad54187e21b73c3f9ad33621ad7d256c7036c128255bf22a6,Kinase_paper/figures/si/Figure_S5__top1_bias_all.png,논문 게재 그림
+figures/si/Figure_S6__per_drug_sub05.png,figure,356296,a4f973399e6b9750c0d10b2a950f47e87cedd74523195fa87a7c7f77f1a2c8ee,Kinase_paper/figures/si/Figure_S6__per_drug_sub05.png,논문 게재 그림
+figures/si/Figure_S7__ref_panel_eval.png,figure,259497,0e0acc59b48a81e12e948242767fb3bc52c0df0e9e5b284cbe0439438935cf7f,Kinase_paper/figures/si/Figure_S7__ref_panel_eval.png,논문 게재 그림
+figures/_lib/figlabels.py,figure-code,898,c7425616745af6485daf7cb5eb1bafb848896fe783bf30c3e13e06dc27f7a835,Kinase_paper/figures/_lib/figlabels.py,해당 그림 생성 코드
+figures/_lib/kinome_merge.py,figure-code,3969,44f7bcc4d148fd262ba3854a136bfc20a12b155d0351373dd40de5401552d5e0,Kinase_paper/figures/_lib/kinome_merge.py,해당 그림 생성 코드
+figures/_lib/novel_cohort.py,figure-code,2913,170eaa9feeff6bfea972ccba39c2382a315e0ea900fd2317051be835ec3af898,Kinase_paper/figures/_lib/novel_cohort.py,해당 그림 생성 코드
+figures/_lib/ref_families.py,figure-code,7616,a150d9834ecdfd89f0a9b183b27733982a37569f23687c5153dd40132f7183e1,Kinase_paper/figures/_lib/ref_families.py,해당 그림 생성 코드
+figures/main/Figure_02__pdbbind_leakage.py,figure-code,9659,35c7e656fba02503988d9635fa7378c719ed6f836b45ba3b344925914c0e463b,Kinase_paper/figures/main/Figure_02__pdbbind_leakage.py,해당 그림 생성 코드
+figures/main/Figure_03__dataset_leakage.py,figure-code,7666,6ec7df3af2088c68c12486fe8fb3b7c1a915a1861b9c2b6f6aa464dc70745144,Kinase_paper/figures/main/Figure_03__dataset_leakage.py,해당 그림 생성 코드
+figures/main/Figure_04__leave_leaked_out.py,figure-code,8266,34ca78fc8730cf9cf927c6be44d7e65c04c11d676981bb7cd415a3e8ba8792d9,Kinase_paper/figures/main/Figure_04__leave_leaked_out.py,해당 그림 생성 코드
+figures/main/Figure_05__energy_benchmark.py,figure-code,8399,97b3f0efe2cac3c36eed271266b23f9175a1c22f151437fbb4dc80f628c0981a,Kinase_paper/figures/main/Figure_05__energy_benchmark.py,해당 그림 생성 코드
+figures/main/Figure_06__fig2_recovery_combined.py,figure-code,3226,9d89aa72340ffa2ede843e8b6b0c6ba23de94066e3eca13991f4d3bb9f265d8a,Kinase_paper/figures/main/Figure_06__fig2_recovery_combined.py,해당 그림 생성 코드
+figures/main/Figure_07__success_rate.py,figure-code,4952,2619cdc9c4ab0bc7b5754dbe87c726b3555fef39ed04745f71d853818dcd7063,Kinase_paper/figures/main/Figure_07__success_rate.py,해당 그림 생성 코드
+figures/main/Figure_08__ref_multi_compare.py,figure-code,5298,3da6c2eeea9727bace893ba72fed68b6082ff79751789e72bdf5dd76c5f4a8ca,Kinase_paper/figures/main/Figure_08__ref_multi_compare.py,해당 그림 생성 코드
+figures/main/Figure_09__pkis2_rtm_compare.py,figure-code,6986,b2a0bb4f7619c4b690619bfbb36bfcf721bf28535037df00fbe085d9a20a923e,Kinase_paper/figures/main/Figure_09__pkis2_rtm_compare.py,해당 그림 생성 코드
+figures/si/Figure_S1__energy_corr.py,figure-code,5622,462f511976ddebd535264c7089ccb847d068e9057e0159cc576d901298531813,Kinase_paper/figures/si/Figure_S1__energy_corr.py,해당 그림 생성 코드
+figures/si/Figure_S5__top1_bias_all.py,figure-code,9206,ebfb6d698b02d847e314ed4b9abb72df8c97dd35152bf29c5d3bca5a68ccff91,Kinase_paper/figures/si/Figure_S5__top1_bias_all.py,해당 그림 생성 코드
+figures/si/Figure_S6__per_drug_sub05.py,figure-code,9084,638e51c77c907c289f2954dfe2a0c1fe9c4b5245904f2e4bd6d43157379e93ca,Kinase_paper/figures/si/Figure_S6__per_drug_sub05.py,해당 그림 생성 코드
+figures/si/Figure_S7__ref_panel_eval.py,figure-code,19004,a6c4ed2200426e99a1b3c39daf16b9ce0ba434a4fc497bfeaa93d11d66cf536c,Kinase_paper/figures/si/Figure_S7__ref_panel_eval.py,해당 그림 생성 코드
+figures/main/Figure_01__no_script.SOURCE.txt,figure-note,438,e65aa1ac26c33d75c41957f2fb03ef985f53521c128458919cfe71b7f7acdcfa,Kinase_paper/figures/main/Figure_01__no_script.SOURCE.txt,생성 코드가 없는 그림에 대한 메모
+figures/si/Figure_S2__dataset_difference.SOURCE.txt,figure-note,540,fc5107abcd4ba94d44e0eab6809ad70b735b7e5e7af1ab88fa18d225170bb9b4,Kinase_paper/figures/si/Figure_S2__dataset_difference.SOURCE.txt,생성 코드가 없는 그림에 대한 메모
+figures/si/Figure_S3__target_group_performance.SOURCE.txt,figure-note,534,7cf6f922d33f7e90867ee693f6eff82d2379463794a9779480c67e1706f006d5,Kinase_paper/figures/si/Figure_S3__target_group_performance.SOURCE.txt,생성 코드가 없는 그림에 대한 메모
+figures/si/Figure_S4__lowperf_compound_diagnosis.SOURCE.txt,figure-note,602,716793ccb7463769f86095b5c7fe04249ae21633cd86da7d0eee1d72b7acf8df,Kinase_paper/figures/si/Figure_S4__lowperf_compound_diagnosis.SOURCE.txt,생성 코드가 없는 그림에 대한 메모
+scripts/analyze_pkis.py,script,37767,b7361f7965193fe83f297386a83b02cffbe8a3d98fa0b48c1982bbef6e1dd25f,PKIS2/analyze_pkis.py,PKIS2 로딩·병합 공용 모듈
+scripts/dataset_leakage_compare.py,script,7666,6ec7df3af2088c68c12486fe8fb3b7c1a915a1861b9c2b6f6aa464dc70745144,Kinase_paper/dataset_leakage_compare.py,데이터셋별 리간드 누출률 (Figure 3)
+scripts/energy_benchmark.py,script,8399,97b3f0efe2cac3c36eed271266b23f9175a1c22f151437fbb4dc80f628c0981a,Kinase_paper/energy_benchmark.py,KIR 스코어링 함수 벤치마크 (Figure 5)
+scripts/figlabels.py,script,898,c7425616745af6485daf7cb5eb1bafb848896fe783bf30c3e13e06dc27f7a835,Kinase_paper/figlabels.py,그림 패널 라벨 공용 모듈
+scripts/full_metric_table.py,script,3870,6466f27c302da91a4ac99ea81eeebe494698f7136162d585fd21561894806685,Kinase_paper/full_metric_table.py,Methods 4.6 전체 지표 집계 (Table S10)
+scripts/kinome_merge.py,script,3969,44f7bcc4d148fd262ba3854a136bfc20a12b155d0351373dd40de5401552d5e0,Kinase_paper/kinome_merge.py,KIR 병합의 단일 출처 (복합 accession 정규화 포함)
+scripts/kinome_recovery.py,script,9166,7fd298f87862016881bf37161e154a045493269632beee261677fdfd4e28b766,Kinase_paper/kinome_recovery.py,KIR primary-target 회수 (POOL=measured 기본 / full 은 민감도)
+scripts/leave_leaked_out.py,script,8266,34ca78fc8730cf9cf927c6be44d7e65c04c11d676981bb7cd415a3e8ba8792d9,Kinase_paper/leave_leaked_out.py,leave-leaked-out 분석 (Figure 4)
+scripts/make_prsdb_library.py,script,1543,49db2ddcc1c1d2fb0070bd3bc97cdfc83f1d4dbf5bb6acb895aa9057e749d7d0,Kinase_paper/make_prsdb_library.py,Supplementary Data D8 생성
+scripts/novel_cohort.py,script,2913,170eaa9feeff6bfea972ccba39c2382a315e0ea900fd2317051be835ec3af898,Kinase_paper/novel_cohort.py,누출 제거 코호트 정의 (NOVEL_ONLY=0 이면 전체 코호트 재현)
+scripts/pdbbind_leakage.py,script,9659,35c7e656fba02503988d9635fa7378c719ed6f836b45ba3b344925914c0e463b,Kinase_paper/pdbbind_leakage.py,학습 빈도 대 성능 (Figure 2)
+scripts/per_drug_ci.py,script,6259,87d2ed8019219f83a1220e435abb0a6b7719dd678a6b12a862e4bb625bbf130f,Kinase_paper/per_drug_ci.py,Hanley–McNeil 구간 기반 sub-0.5 재분류 (Table S11)
+scripts/pkis2_recovery.py,script,7647,6aa7b44961009787df91a91efd36fc83ccf7d88548c4a67390123226a0bd5017,Kinase_paper/pkis2_recovery.py,PKIS2 primary-target 회수
+scripts/pool_symmetry.py,script,8061,7715bd8997c3f7481771e94d2e5b8c90f0817bae6fdaecbab491efb42fa6fecc,Kinase_paper/pool_symmetry.py,두 패널의 랭킹 pool 정의를 맞춘 회수 비교 (Table S12b)
+scripts/ref_families.py,script,7616,a150d9834ecdfd89f0a9b183b27733982a37569f23687c5153dd40132f7183e1,Kinase_paper/ref_families.py,Kinase_ref 시리즈·출처 메타데이터
+scripts/ref_labeled_roc.py,script,3013,4d78e3e08c38b6b2633df75a9d4047e7a97bf0f4952140c48645adc699bfc177,Kinase_paper/ref_labeled_roc.py,Kinase_ref 라벨 기반 per-compound ROC (4개 방법)
+scripts/ref_panel_eval.py,script,19004,a6c4ed2200426e99a1b3c39daf16b9ce0ba434a4fc497bfeaa93d11d66cf536c,Kinase_paper/ref_panel_eval.py,Kinase_ref 패널 복원(S(35))과 측정 패널 기준 평가
+scripts/stats_analysis.py,script,8545,60de4e831c40d006edba2b5a7d61a05ba78e8222a53b29f414d83929a87afdfa,Kinase_paper/stats_analysis.py,부트스트랩 신뢰구간과 짝지은 검정 (Table 3·4)
+scripts/top1_bias_validate.py,script,9206,ebfb6d698b02d847e314ed4b9abb72df8c97dd35152bf29c5d3bca5a68ccff91,Kinase_paper/top1_bias_validate.py,"리간드 무관 top-1 쏠림 진단 (Table S8, Figure S5)"
+tables/main/Table_1_datasets.csv,table,375,c21ba118ffeb973d0a30c94fe1206c9a80cf33e32b33d3932638b11783c8dc82,paper_v20.docx,"벤치마크 데이터셋 요약 (화합물·kinase 수, 측정 쌍, 활성 비율, 코호트)"
+tables/main/Table_2_kinase_ref_provenance.csv,table,1293,94301987a35fdbfe82fd4fa0969425f40c69ed2bfbd2659b724f9ec28d252592,paper_v20.docx,Kinase_ref 44개 화합물의 출처 논문·시리즈·패널·플랫폼
+tables/main/Table_3_scoring_functions_kir.csv,table,317,f9470554cf7ce0ab2ecc0fdbeb51bc4455e487bc9d335ea3b4d9c05768ae0d21,paper_v20.docx,KIR 4개 스코어링 함수 per-drug ROC 와 짝지은 검정
+tables/main/Table_4_akscore2_two_panels.csv,table,443,dfc3c336baf842e8292e2605c089fb16d88be23f9ccecb5472801e6d43f376c6,paper_v20.docx,두 완전측정 패널에서 AK-Score2 성능 (ROC·Hit@k·R-precision)
+tables/main/Table_5_kinase_ref_recovery.csv,table,128,ed5a9499e76c9981b5464a37976f27c81c1e262a39b222ab4affb129ca3c0bcf,paper_v20.docx,Kinase_ref 측정 패널 내 표적 회수 (n=43)
+tables/main/Table_6_consensus_pkis2.csv,table,288,a3aad84333aa8ab75f7116933a7f448f044ff2b61eaf11f59c500fdc4d006217,paper_v20.docx,PKIS2 consensus 재현
+tables/si/Supplementary_Data_index.csv,table,2327,d377288ab3517bea4cc9e0ffc75526ef777fa53caef7b9f43357a88349cfc99a,si_v20.docx,Supplementary Data D1–D8 목록
+tables/si/Table_S10_complete_metric_set.csv,table,619,38bc1e4904800fbafe10082dcb0550548c77735ac977bef4fbcbd27fdb3e8a66,si_v20.docx,Methods 4.6 의 전체 지표 (방법별 자기 pool)
+tables/si/Table_S11_per_drug_roc_reclassified.csv,table,164,45bd8e1ff4cd71c0bd79c6f6503dcca0fc6f3d70de0d99998bfbdd1b8050708a,si_v20.docx,Hanley–McNeil 구간으로 재분류한 sub-0.5 비율
+tables/si/Table_S12_full_vs_leakage_free.csv,table,954,b3bcdb15d984c9e320beaecdc098bf1ad4fe056695e45318b75e44e206e82828,si_v20.docx,전체 코호트 대 누출 제거 코호트
+tables/si/Table_S12b_blind_kinome_wide.csv,table,790,f0db31ac5a82c3b1a6c3d19a59d7b0928885c033a5cb7d577365ea484e3cb7a8,si_v20.docx,618 구조 전체를 pool 로 썼을 때의 민감도 분석
+tables/si/Table_S13_ligand_similarity_baseline.csv,table,255,fab2adb19e497d869f7009f42c79a0fcdbf33bcb9c1974f7c5ca0d1d6f013200,si_v20.docx,리간드 유사도 베이스라인 대비 구조 기반 성능
+tables/si/Table_S1_per_compound_metrics_kir.csv,table,3006,f8b36420ba675c7fdfa9b1e9a1f34ad8f36dd81364f46cb846174432912fde50,si_v20.docx,KIR 화합물별 per-drug ROC (n=53)
+tables/si/Table_S2_training_set_matches.csv,table,880,671d2602c4eac929ff08fd5889cf13948a130ebb5092f1c09d35ea993668fce5,si_v20.docx,PDBbind 학습 리간드와 InChIKey14 완전일치한 화합물
+tables/si/Table_S3a_analogue_proximity.csv,table,207,8d9f3629ab83c35c1d1a329156b9e771ede7a0c216c6c285c03628e1eafe463f,si_v20.docx,누출 제거 코호트와 학습 코퍼스의 화학적 거리
+tables/si/Table_S3b_analogue_cutoff_sensitivity.csv,table,455,b6573ce82a6a3932ac77a6a363e262431887dd0c908be117e7abcbc70840ec80,si_v20.docx,Tanimoto 컷오프를 높여도 성능이 변하지 않음
+tables/si/Table_S4_per_target_performance.csv,table,1193,d892bc42c4d5ced61d95875c453aaff1d98ca293b1d26203807ae6f3553d4086,si_v20.docx,타겟별 ROC·EF1% 와 PDBbind 학습 빈도
+tables/si/Table_S5_consensus_fusion_methods.csv,table,1211,ec1e500008ab02b72b7fb7696fb5879e8a0853b9e7a288b1cf76a4a4e533f940,si_v20.docx,AK-Score2 + RTMScore 모든 fusion 비교
+tables/si/Table_S5b_three_way_fusion.csv,table,700,3270899d703d4df7ac4c6e7b013f06c3883e2def1fad7098aa234a3a4c3f0879,si_v20.docx,GenScore 를 포함한 3-way fusion (3방법 공통 pool)
+tables/si/Table_S6_kinase_ref_panels.csv,table,2402,9fb92273ef9dc2484bf6232734370901da920e70811a8b0763402ef9a4dde6a8,si_v20.docx,Kinase_ref 화합물별 screened panel / values released / ranking pool
+tables/si/Table_S7a_run_to_run_reproducibility.csv,table,454,ad14b25815de3da56c4096666ccd66fac547922a976385d852c6b0c54dab3d56,si_v20.docx,동일 분자 2회 독립 도킹의 재현성
+tables/si/Table_S7b_macrocycle_sensitivity.csv,table,221,66e8e48c5d5866f2c743467a34826c86ac7ab0ce3410278df5eb7d66ef28c990,si_v20.docx,거대고리 제외 시 지표 변화
+tables/si/Table_S8_top1_target_collapse.csv,table,1008,032bce6070708cc044cdd12db5a1bdcb991323fe06d4466ce527982f980d5f0c,si_v20.docx,리간드 무관 top-1 표적 쏠림과 그 타당성
+tables/si/Table_S9_sub_chance_diagnosis.csv,table,782,feb2e0b53586dd6f943835ede0eb52147e0a866b8261e21c5bbb2675accc27b9,si_v20.docx,per-drug ROC < 0.5 화합물의 원인 진단

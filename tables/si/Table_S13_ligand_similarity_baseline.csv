@@ -1,0 +1,5 @@
+Panel,Method,n,Per-drug ROC,Hit@1,Hit@10,EF1%
+KIR,Ligand NN (Tanimoto),53,0.609,0.55,0.81,3.94
+KIR,AK-Score2 (structure),53,0.700,0.43,0.81,3.68
+PKIS2,Ligand NN (Tanimoto),603,0.554,0.41,0.73,3.56
+PKIS2,AK-Score2 (structure),603,0.583,0.25,0.66,2.38

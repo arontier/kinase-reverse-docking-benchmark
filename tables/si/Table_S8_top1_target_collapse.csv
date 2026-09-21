@@ -1,0 +1,13 @@
+Panel,Method,Distinct top-1 / n,Most frequent top-1 (share),Norm. entropy,Top-10 appearance,Collapsed-target active rate,Panel active rate,Lift
+KIR,AK-Score2,40 / 61,LCK (7%),0.868,23%,75.0% (LCK),8.6%,8.69×
+KIR,AD4 energy,31 / 61,ITK (16%),0.752,48%,10.0% (ITK),8.6%,1.16×
+KIR,RTMScore,36 / 61,MAP2K1 (10%),0.827,31%,50.0% (MAP2K1),8.6%,5.80×
+KIR,GenScore,27 / 61,TGFBR2 (16%),0.737,49%,0.0% (TGFBR2),8.6%,0.00×
+PKIS2,AK-Score2,154 / 604,KDR (5%),0.691,25%,27.3% (KDR),8.2%,3.34×
+PKIS2,RTMScore,101 / 606,BTK (5%),0.641,27%,23.3% (BTK),8.2%,2.85×
+PKIS2,GenScore,65 / 606,TGFBR2 (27%),0.497,57%,18.6% (TGFBR2),8.2%,2.28×
+Kinase_ref,AK-Score2,21 / 44,MET (30%),0.690,36%,n.a.,n.a.,n.a.
+Kinase_ref,AD4 energy,18 / 44,TEK (20%),0.673,86%,n.a.,n.a.,n.a.
+Kinase_ref,RTMScore,24 / 44,MAPKAPK3 (16%),0.782,48%,n.a.,n.a.,n.a.
+KIR,"consensus (AK+RTM, z-avg)",39 / 61,KIT (7%),0.856,38%,100.0% (KIT),8.6%,11.56x
+PKIS2,"consensus (AK+RTM, z-avg)",100 / 604,KDR (7%),0.628,37%,34.1% (KDR),8.1%,4.20x

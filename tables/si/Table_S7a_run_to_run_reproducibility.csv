@@ -1,0 +1,7 @@
+Shared compound (panel A / panel B),Shared targets,Pearson r (raw AK-Score2),Spearman,median |ΔE|,max |ΔE|,|ΔE| < 0.5
+Palbociclib / PFE-PKIS-32,385,0.865,0.851,0.62,4.30,42%
+Lorlatinib / PFE-PKIS-10,385,0.593,0.590,1.27,6.54,22%
+Crizotinib / PFE-PKIS-37,385,0.907,0.915,0.19,3.47,72%
+Canertinib / GW781483,385,0.956,0.957,0.33,2.43,68%
+Axitinib / PFE-PKIS-6,385,0.906,0.888,0.50,3.58,50%
+Tofacitinib / PFE-PKIS-25,385,0.935,0.931,0.32,4.33,64%

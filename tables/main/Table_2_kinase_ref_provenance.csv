@@ -1,0 +1,12 @@
+Target,Compound series in Kinase_ref,n,Panel,Platform,Reporting,"Source (journal, year) [ref]"
+PERK (EIF2AK3),"GSK2656157 series, compound 8",1,300,Reaction Biology HotSpot,full panel,ACS Med. Chem. Lett. 2013 [30]
+MNK1/2,ETC-206 (AUM001),1,414,Life Technologies SelectScreen,hit IC50 only,J. Med. Chem. 2018 [31]
+MNK1/2,BAY 1143269,1,395,Miltenyi Biotec / Eurofins,hit IC50 only,Cancer Lett. 2017 [32]
+DYRK1A,AnnH75 (beta-carboline),1,300,functional assay,full panel,PLoS One 2015 [33]
+DYRK1A/1B,"pyrazolo[1,5-b]pyridazine series",12,468,DiscoverX KINOMEscan,full panel,J. Med. Chem. 2021 [34]
+CK2 (CSNK2A1/A2),SGC-CK2-1 and CX-4945 analogue series,9,403,DiscoverX KINOMEscan,hits only,Cell Chem. Biol. 2021 [35]
+GAK,SGC-GAK-1 (probe) + SGC-GAK-1N (negative control),2,406,DiscoverX KINOMEscan,full panel,J. Med. Chem. 2019 [36]
+GAK,quinoline series,2,468,DiscoverX KINOMEscan,full panel,Bioorg. Med. Chem. Lett. 2019 [37]
+SLK / STK10,3-anilino-4-arylmaleimide series,5,468,DiscoverX KINOMEscan,full panel,J. Med. Chem. 2021 [38]
+PKN1/2,"PKN2 inhibitor series (cpd. 3, 8)",2,468,DiscoverX KINOMEscan,full panel,Bioorg. Med. Chem. Lett. 2022 [39]
+TLK2,oxindole series (compound 1 = SU9516; lead 128 = UNC-CA2-103),8,468,DiscoverX KINOMEscan,full panel,Eur. J. Med. Chem. 2024 [40]

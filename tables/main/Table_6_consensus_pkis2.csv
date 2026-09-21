@@ -1,0 +1,5 @@
+"Method (PKIS2, per-drug n = 603)",Per-drug ROC,Hit@1,Hit@10,EF1%,p vs AK-Score2
+AK-Score2,0.583,0.25,0.66,4.07,reference
+RTMScore,0.574,0.30,0.65,4.36,0.214 (n.s.)
+"Consensus (AK + RTM, RRF)",0.592,0.30,0.69,4.64,0.007
+"Consensus (AK + RTM, z-average)",0.593,0.33,0.71,5.13,< 0.001

@@ -1,0 +1,3 @@
+Panel,Compounds,Point ROC < 0.5,Significantly < 0.5,Indistinguishable from 0.5,Significantly > 0.5
+KIR,53,5.7%,0.0%,24.5%,75.5%
+PKIS2,603,22.2%,2.2%,66.2%,31.7%

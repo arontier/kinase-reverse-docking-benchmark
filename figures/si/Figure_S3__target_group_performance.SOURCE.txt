@@ -1,0 +1,6 @@
+Figure S3. Per-target ROC by Manning kinase group. CK1 (0.494), CAMK (0.556) and STE (0.562) are hardest; TK (0.592), Other (0.593) and Lipid (0.599) are easiest. Failure is concentrated in specific f
+
+산출물: target_group_analysis/target_group_performance.png
+이 그림을 만든 스크립트가 프로젝트 트리에 없다. PNG 와 옆의 리포트만 남아 있어
+수치는 추적되지만 그림 자체는 재생성할 수 없다. 코드를 복구하거나 다시 작성할 것.
+같은 폴더의 리포트: TARGET_GROUP.md

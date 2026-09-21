@@ -1,0 +1,10 @@
+Quantity,Low-performing,High-performing,Interpretation
+Cause breakdown (n = 137 compounds with per-drug ROC < 0.5),,,
+docking mis-ranks strong actives,67 (49%),-,pose- and structure-level ranking error
+"weak, borderline actives",59 (43%),-,"measured activity near the 50% threshold, not a scoring error"
+actives in hard kinase groups (CK1/CAMK/STE),11 (8%),-,kinase-family difficulty (Figure S3)
+"Discriminating factors (median; low n = 137, high n = 110)",,,
+rank percentile of actives,0.55,0.25,follows from the definition of ROC
+%inhibition of actives,68,82,low group sits nearer the activity threshold (p = 6e-6)
+fraction of actives in hard groups,0.083,0.029,minor secondary contribution (p = 6e-3)
+number of actives,12,11,no difference - not a small-sample artefact

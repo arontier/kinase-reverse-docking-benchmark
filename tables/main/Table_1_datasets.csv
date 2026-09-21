@@ -1,0 +1,4 @@
+Dataset,Assay,Compounds × kinases (ranking pool),Measured pairs,Active ratio,Leakage-free cohort (per-drug)
+KIR,Biochemical (% activity remaining at 1 µM),92 × 369,"33,141",10.5%,61 (53)
+PKIS2,GSK (%inhibition at 1 µM),636 × 387,"246,132",8.2%,604 (603)
+Kinase_ref,activities reported in eleven source papers,44 × panel-specific (median 380),"19,159",6.5%*,44 (42)

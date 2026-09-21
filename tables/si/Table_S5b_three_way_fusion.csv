@@ -1,0 +1,11 @@
+Panel,Fusion method,Per-drug ROC,Hit@1,Hit@10,EF1%,R-precision,p vs AK-Score2
+KIR (n = 53),AK-Score2,0.700,0.43,0.81,5.89,0.252,-
+KIR (n = 53),RTMScore,0.712,0.45,0.89,9.44,0.287,-
+KIR (n = 53),GenScore,0.681,0.43,0.91,9.66,0.292,-
+KIR (n = 53),consensus AK+RTM (z-avg),0.730,0.53,0.92,10.87,0.312,-
+KIR (n = 53),consensus AK+RTM+GenScore (z-avg),0.715,0.53,0.91,11.12,0.319,-
+PKIS2 (n = 603),AK-Score2,0.583,0.25,0.66,4.07,0.154,-
+PKIS2 (n = 603),RTMScore,0.575,0.30,0.65,4.49,0.164,-
+PKIS2 (n = 603),GenScore,0.570,0.28,0.71,4.06,0.166,-
+PKIS2 (n = 603),consensus AK+RTM (z-avg),0.594,0.33,0.71,5.18,0.176,-
+PKIS2 (n = 603),consensus AK+RTM+GenScore (z-avg),0.589,0.35,0.73,5.38,0.181,-

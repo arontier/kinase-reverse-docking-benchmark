@@ -1,0 +1,9 @@
+Panel,Cohort,n,AK-Score2 per-drug ROC
+KIR,leakage-free (exact-match removed),53,0.700
+KIR,+ analogues removed (Tanimoto < 0.7),50,0.700
+KIR,+ analogues removed (Tanimoto < 0.8),50,0.700
+KIR,+ analogues removed (Tanimoto < 0.9),53,0.700
+PKIS2,leakage-free (exact-match removed),603,0.583
+PKIS2,+ analogues removed (Tanimoto < 0.7),560,0.578
+PKIS2,+ analogues removed (Tanimoto < 0.8),592,0.581
+PKIS2,+ analogues removed (Tanimoto < 0.9),602,0.584

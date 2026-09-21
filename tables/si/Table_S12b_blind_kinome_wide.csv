@@ -1,0 +1,13 @@
+Panel,Method,Ranking pool,Primary Top-10,Hit@10,Median rank pctl
+KIR,AK-Score2,measured kinases (369),26.4%,67.9%,12.7%
+KIR,AK-Score2,all structures (618),24.5%,67.9%,8.3%
+KIR,RTMScore,measured kinases (369),28.3%,71.7%,10.3%
+KIR,RTMScore,all structures (618),28.3%,69.8%,7.3%
+Kinase_ref,AK-Score2,measured panel (median 380),11.6%,37.2%,25.0%
+Kinase_ref,AK-Score2,all structures (618),11.4%,36.4%,18.2%
+Kinase_ref,RTMScore,measured panel (median 380),9.3%,27.9%,29.6%
+Kinase_ref,RTMScore,all structures (618),6.8%,25.0%,19.3%
+Kinase_ref,AD4 energy,measured panel (median 380),4.7%,7.0%,33.7%
+Kinase_ref,AD4 energy,all structures (618),0.0%,2.3%,33.3%
+Kinase_ref,GenScore,measured panel (median 380),16.3%,51.2%,18.2%
+Kinase_ref,GenScore,all structures (618),15.9%,47.7%,13.9%

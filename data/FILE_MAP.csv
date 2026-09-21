@@ -1,0 +1,11 @@
+supplementary_data,path_as_printed_in_SI,path_in_this_repository
+D1,analysis_output/analysis_merged_labeled.csv,data/D1_merged_labeled_kir.csv
+D1,PKIS2_result/analysis_merged_labeled.csv,data/D1_merged_labeled_pkis2.csv.gz
+D2,kinase_ref_check/KINASE_REF_PANELS.tsv,data/D2_kinase_ref_panels.tsv.gz
+D3,low_auc_analysis/per_drug_ci.csv,data/D3_per_drug_roc_ci.csv
+D4,analysis_output/analysis_per_target_metrics.csv,data/D4_per_target_metrics.csv
+D4,pdbbind_analysis/target_pref_vs_npdb.csv,data/D4_target_preference_vs_pdbbind.csv
+D5,analysis_output/analysis_protein_coverage.csv,data/D5_protein_coverage.csv
+D6,*/redock_zscore_long.csv,data/D6_predictions/{panel}__{method}.csv.gz
+D7,Analysis scripts,scripts/
+D8,analysis_output/prsdb_kinase_library.csv,data/D8_prsdb_kinase_library.csv

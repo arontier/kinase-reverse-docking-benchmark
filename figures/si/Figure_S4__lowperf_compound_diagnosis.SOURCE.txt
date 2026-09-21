@@ -1,0 +1,6 @@
+Figure S4. Why some compounds score below chance. Compounds with per-drug ROC < 0.5 are compared with high-performing ones (ROC >= 0.7) across the factors that could explain the gap: where the measure
+
+산출물: low_auc_analysis/lowperf_compound_diagnosis.png
+이 그림을 만든 스크립트가 프로젝트 트리에 없다. PNG 와 옆의 리포트만 남아 있어
+수치는 추적되지만 그림 자체는 재생성할 수 없다. 코드를 복구하거나 다시 작성할 것.
+같은 폴더의 리포트: LOWPERF_COMPOUND.md, LOWPERF_PROPERTY.md, LOW_AUC_ANALYSIS.md, PERDRUG_CI.md, SUB05.md

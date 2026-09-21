@@ -1,0 +1,13 @@
+Quantity,Full cohort,Leakage-free cohort,Interpretation
+KIR compounds (per-drug),92 (84),61 (53),31 exact ligand matches removed
+PKIS2 compounds (per-drug),636 (635),604 (603),32 exact ligand matches removed
+"AK-Score2 per-drug ROC, KIR",0.687,0.700,rises — not inflated by overlap
+"AK-Score2 per-drug ROC, PKIS2",0.585,0.583,unchanged (already low overlap)
+"p versus RTMScore, KIR",0.042 (RTMScore ahead),0.298 (tied),the RTMScore advantage disappears
+"p versus RTMScore, PKIS2",0.231 (tied),0.214 (tied),unchanged
+p versus AD4 energy / GenScore,0.021 / 0.205,0.028 / 0.110,AK-Score2 ahead of AD4 energy; tied with GenScore
+"Consensus (z-average), KIR",0.726,0.730,essentially unchanged
+"Primary Top-10, KIR",26.1%,23.0%,falls — top-rank recovery uses overlap
+"Hit@10, KIR",0.82,0.81,essentially unchanged
+"Significantly <0.5, PKIS2",2.0%,2.2%,unchanged (both within the 2.5% FPR)
+Top-1% screening success,68% / 50%,68% / 49%,unchanged

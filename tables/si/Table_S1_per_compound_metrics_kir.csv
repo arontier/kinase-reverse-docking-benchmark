@@ -1,0 +1,54 @@
+Compound,Per-drug ROC,95% CI (Hanley–McNeil),n actives,Verdict vs random
+Trametinib,0.979,[0.840–1.118],2,significantly > 0.5
+Binimetinib,0.956,[0.674–1.238],1,significantly > 0.5
+Zanubrutinib,0.936,[0.858–1.015],18,significantly > 0.5
+Selumetinib,0.924,[0.565–1.284],1,significantly > 0.5
+Remibrutinib,0.884,[0.635–1.133],3,significantly > 0.5
+Acalabrutinib,0.875,[0.707–1.043],7,significantly > 0.5
+Mitapivat,0.871,[0.422–1.320],1,indistinct
+Ibrutinib,0.846,[0.762–0.929],34,significantly > 0.5
+Lenvatinib,0.836,[0.743–0.928],29,significantly > 0.5
+Pexidartinib,0.821,[0.651–0.990],9,significantly > 0.5
+Erlotinib,0.803,[0.658–0.949],13,significantly > 0.5
+Pirtobrutinib,0.797,[0.669–0.926],17,significantly > 0.5
+Mobocertinib,0.796,[0.649–0.943],13,significantly > 0.5
+Gedatolisib,0.783,[0.404–1.163],2,indistinct
+Quizartinib,0.766,[0.600–0.932],11,significantly > 0.5
+Canertinib,0.762,[0.679–0.846],46,significantly > 0.5
+Larotrectinib,0.756,[0.546–0.966],7,significantly > 0.5
+Cabozantinib,0.752,[0.676–0.829],57,significantly > 0.5
+Alpelisib,0.752,[0.650–0.854],31,significantly > 0.5
+Regorafenib,0.739,[0.631–0.848],28,significantly > 0.5
+Osimertinib,0.713,[0.609–0.817],32,significantly > 0.5
+Apatinib,0.696,[0.575–0.816],24,significantly > 0.5
+Ruxolitinib,0.695,[0.567–0.824],21,significantly > 0.5
+Afatinib,0.695,[0.581–0.809],27,significantly > 0.5
+Ripretinib,0.690,[0.619–0.762],75,significantly > 0.5
+Vemurafenib,0.683,[0.604–0.762],61,significantly > 0.5
+Fostamatinib,0.681,[0.608–0.754],73,significantly > 0.5
+Umbralisib,0.680,[0.547–0.812],20,significantly > 0.5
+Lazertinib,0.679,[0.555–0.803],23,significantly > 0.5
+Baricitinib,0.678,[0.587–0.768],45,significantly > 0.5
+Dacomitinib,0.669,[0.567–0.771],35,significantly > 0.5
+Encorafenib,0.665,[0.524–0.805],18,significantly > 0.5
+Pemigatinib,0.663,[0.543–0.783],25,significantly > 0.5
+Tenalisib,0.663,[0.519–0.807],17,significantly > 0.5
+Capmatinib,0.649,[0.354–0.944],4,indistinct
+Neratinib,0.645,[0.568–0.722],67,significantly > 0.5
+Pralsetinib,0.645,[0.565–0.725],62,significantly > 0.5
+Paxalisib,0.637,[0.296–0.977],3,indistinct
+Repotrectinib,0.634,[0.569–0.699],106,significantly > 0.5
+Gilteritinib,0.623,[0.561–0.685],125,significantly > 0.5
+Upadacitinib,0.611,[0.513–0.710],39,significantly > 0.5
+Avapritinib,0.606,[0.501–0.711],34,significantly > 0.5
+Tucatinib,0.605,[0.015–1.195],1,indistinct
+Pacritinib,0.596,[0.536–0.657],144,significantly > 0.5
+Defactinib,0.576,[0.513–0.639],126,significantly > 0.5
+Fedratinib,0.569,[0.493–0.646],70,indistinct
+Erdafitinib,0.568,[0.474–0.662],43,indistinct
+Ceritinib,0.521,[0.432–0.611],47,indistinct
+Darovasertib,0.520,[0.409–0.631],29,indistinct
+Selpercatinib,0.503,[0.418–0.587],53,indistinct
+Rabusertib,0.489,[0.341–0.638],15,indistinct
+Pazopanib,0.486,[0.401–0.572],50,indistinct
+Netarsudil,0.433,[0.353–0.513],54,indistinct
