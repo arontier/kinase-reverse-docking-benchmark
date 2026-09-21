@@ -101,7 +101,7 @@ defines an active interaction throughout.
 | File | Contents |
 |---|---|
 | **D1** | `data/D1_merged_labeled_kir.csv`, `data/D1_merged_labeled_pkis2.csv.gz` — compound × kinase table with the experimental value, the binary label and the direction-corrected prediction. Every per-drug, per-target and global metric in the paper is computed from this. |
-| **D2** | `data/D2_kinase_ref_panels.tsv.gz` — the Kinase_ref compound × kinase listing (19,159 rows over 403 kinases) with source series, panel size, platform, citation, unit, value, label, pool membership, and a `reported` flag separating values the source paper released from panel entries reconstructed as described in Methods S3. |
+| **D2** | `data/D2_kinase_ref_panels.tsv.gz` — the Kinase_ref compound × kinase listing (19,159 rows over 403 kinases) with source series, panel size, platform, citation, unit, value, label, pool membership, and a `reported` flag separating values the source paper released from panel entries reconstructed as described in Methods S2. |
 | **D3** | `data/D3_per_drug_roc_ci.csv` — per-compound ROC with Hanley–McNeil 95% intervals for both panels. Source of Tables S1 and S11. |
 | **D4** | `data/D4_per_target_metrics.csv`, `data/D4_target_preference_vs_pdbbind.csv` — per-target metrics and the ligand-independent target preference against PDBbind training frequency, for all 618 library entries. Source of Table S4. |
 | **D5** | `data/D5_protein_coverage.csv` — every UniProt entry reachable from the experimental panels, flagged for presence in the experiment, in the prediction pool and in the merged analysis, with the reason for any exclusion. |
@@ -137,7 +137,7 @@ kinases at or below a 35% remaining cut-off. Their panels were reconstructed fro
 using the same assay platform, and the papers' own reporting cut-off was adopted as the activity
 threshold for that series — which makes "unreported implies inactive" exact by construction rather
 than an assumption. The `reported` column in D2 marks which rows are released values and which are
-reconstructed. Methods S3 gives the procedure and its limits.
+reconstructed. Methods S2 gives the procedure and its limits.
 
 ---
 

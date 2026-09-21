@@ -87,7 +87,7 @@ tables/main/Table_3_scoring_functions_kir.csv,table,317,f9470554cf7ce0ab2ecc0fdb
 tables/main/Table_4_akscore2_two_panels.csv,table,443,dfc3c336baf842e8292e2605c089fb16d88be23f9ccecb5472801e6d43f376c6,paper_v20.docx,두 완전측정 패널에서 AK-Score2 성능 (ROC·Hit@k·R-precision)
 tables/main/Table_5_kinase_ref_recovery.csv,table,128,ed5a9499e76c9981b5464a37976f27c81c1e262a39b222ab4affb129ca3c0bcf,paper_v20.docx,Kinase_ref 측정 패널 내 표적 회수 (n=43)
 tables/main/Table_6_consensus_pkis2.csv,table,288,a3aad84333aa8ab75f7116933a7f448f044ff2b61eaf11f59c500fdc4d006217,paper_v20.docx,PKIS2 consensus 재현
-tables/si/Supplementary_Data_index.csv,table,2327,d377288ab3517bea4cc9e0ffc75526ef777fa53caef7b9f43357a88349cfc99a,si_v20.docx,Supplementary Data D1–D8 목록
+tables/si/Supplementary_Data_index.csv,table,2327,dca9e198b16ec1ea62a0649da8189e277a857b11d4538f97c54853725e1194cd,si_v20.docx,Supplementary Data D1–D8 목록
 tables/si/Table_S10_complete_metric_set.csv,table,619,38bc1e4904800fbafe10082dcb0550548c77735ac977bef4fbcbd27fdb3e8a66,si_v20.docx,Methods 4.6 의 전체 지표 (방법별 자기 pool)
 tables/si/Table_S11_per_drug_roc_reclassified.csv,table,164,45bd8e1ff4cd71c0bd79c6f6503dcca0fc6f3d70de0d99998bfbdd1b8050708a,si_v20.docx,Hanley–McNeil 구간으로 재분류한 sub-0.5 비율
 tables/si/Table_S12_full_vs_leakage_free.csv,table,954,b3bcdb15d984c9e320beaecdc098bf1ad4fe056695e45318b75e44e206e82828,si_v20.docx,전체 코호트 대 누출 제거 코호트
